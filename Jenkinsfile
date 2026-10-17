@@ -28,7 +28,7 @@ pipeline {
         stage('Test') {
             steps {
                 echo 'Running test checks...'
-                sh 'python3 -c "print(\'Tests Passed!\')"'
+                sh 'echo "Tests Passed Successfully!"'
             }
         }
 
